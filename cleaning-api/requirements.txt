@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+pydantic
+pandas         # 數據處理
+numpy
+scikit-learn==1.6.1  # Isolation Forest 和 KNN Imputer
+joblib         # 用於模型儲存和載入
