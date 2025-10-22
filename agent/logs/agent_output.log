@@ -1,0 +1,177 @@
+Agent starting...
+API address: http://localhost:8000
+MAC address: 3A:EB:AE:BB:EE:BB
+Version: v1.4.0 (smart power calculation)
+API service running normally
+Device MAC address: 3A:EB:AE:BB:EE:BB
+Device fingerprint function: Enabled
+Power calculation: Optimized (smart estimation)
+Device not yet registered to whitelist, but fingerprint function still operational
+Starting monitoring...
+Class time, continuous monitoring
+Data change threshold exceeded: cpu, gpu, memory
+
+Power Monitor - CPU: 26.85W | GPU: 8.43W | System: 142.67W
+Memory: 17041.5MB (16.6GB)
+GPU: NVIDIA GeForce RTX 4060 Ti (1.0%)
+
+========== Complete Data Output ==========
+timestamp: 2025-08-22T08:32:45.551Z
+cpu: 26.85
+gpu: 8.43
+memory: 17041.47
+disk_read: 0.00
+disk_write: 0.11
+gpu_usage: 1.00
+gpu_model: NVIDIA GeForce RTX 4060 Ti
+system_power: 142.67
+device_id: 4930996333499
+user_id: ckklab6501
+agent_version: v1.4.0
+os_type: Windows
+os_version: 10.0.26100
+location: Taipei, Taiwan
+cpu_model: Intel64 Family 6 Model 151 Stepping 5, GenuineIntel
+cpu_count: 12
+total_memory: 51317170176
+disk_partitions: 1
+network_interfaces: 3
+platform_machine: AMD64
+platform_architecture: 64bit
+Sending data with device fingerprint to API...
+Basic data: CPU=26.85W, GPU=8.43W, System=142.67W
+Device fingerprint: Intel64 Family 6 Model 151 Stepping 5, GenuineIntel (12 cores)
+Data successfully sent to API: success
+Class time, continuous monitoring
+Data change threshold exceeded: memory
+
+Power Monitor - CPU: 22.6W | GPU: 7.92W | System: 137.38W
+Memory: 17041.9MB (16.6GB)
+GPU: NVIDIA GeForce RTX 4060 Ti (0.0%)
+
+========== Complete Data Output ==========
+timestamp: 2025-08-22T08:33:49.826Z
+cpu: 22.60
+gpu: 7.92
+memory: 17041.91
+disk_read: 0.00
+disk_write: 0.00
+gpu_usage: 0.00
+gpu_model: NVIDIA GeForce RTX 4060 Ti
+system_power: 137.38
+device_id: 4930996333499
+user_id: ckklab6501
+agent_version: v1.4.0
+os_type: Windows
+os_version: 10.0.26100
+location: Taipei, Taiwan
+cpu_model: Intel64 Family 6 Model 151 Stepping 5, GenuineIntel
+cpu_count: 12
+total_memory: 51317170176
+disk_partitions: 1
+network_interfaces: 3
+platform_machine: AMD64
+platform_architecture: 64bit
+Sending data with device fingerprint to API...
+Basic data: CPU=22.6W, GPU=7.92W, System=137.38W
+Device fingerprint: Intel64 Family 6 Model 151 Stepping 5, GenuineIntel (12 cores)
+Data successfully sent to API: success
+Class time, continuous monitoring
+Class time, continuous monitoring
+Data change threshold exceeded: memory
+
+Power Monitor - CPU: 23.65W | GPU: 8.7W | System: 138.82W
+Memory: 16885.4MB (16.5GB)
+GPU: NVIDIA GeForce RTX 4060 Ti (4.0%)
+
+========== Complete Data Output ==========
+timestamp: 2025-08-22T08:35:56.113Z
+cpu: 23.65
+gpu: 8.70
+memory: 16885.38
+disk_read: 0.00
+disk_write: 0.01
+gpu_usage: 4.00
+gpu_model: NVIDIA GeForce RTX 4060 Ti
+system_power: 138.82
+device_id: 4930996333499
+user_id: ckklab6501
+agent_version: v1.4.0
+os_type: Windows
+os_version: 10.0.26100
+location: Taipei, Taiwan
+cpu_model: Intel64 Family 6 Model 151 Stepping 5, GenuineIntel
+cpu_count: 12
+total_memory: 51317170176
+disk_partitions: 1
+network_interfaces: 3
+platform_machine: AMD64
+platform_architecture: 64bit
+Sending data with device fingerprint to API...
+Basic data: CPU=23.65W, GPU=8.7W, System=138.82W
+Device fingerprint: Intel64 Family 6 Model 151 Stepping 5, GenuineIntel (12 cores)
+Data successfully sent to API: success
+Agent starting...
+API address: http://localhost:8000
+MAC address: 3A:EB:AE:BB:EE:BB
+Version: v1.4.0 (smart power calculation)
+Cannot connect to API: http://localhost:8000
+Will use CSV backup mode
+Starting monitoring...
+
+Agent stopped
+Agent starting...
+API address: http://localhost:8000
+MAC address: 3A:EB:AE:BB:EE:BB
+Version: v1.4.0 (smart power calculation)
+API service running normally
+Device MAC address: 3A:EB:AE:BB:EE:BB
+Device fingerprint function: Enabled
+Power calculation: Optimized (smart estimation)
+Device not yet registered to whitelist, but fingerprint function still operational
+Starting monitoring...
+Agent starting...
+API address: http://localhost:8000
+MAC address: 3A:EB:AE:BB:EE:BB
+Version: v1.4.0 (smart power calculation)
+API service running normally
+Device MAC address: 3A:EB:AE:BB:EE:BB
+Device fingerprint function: Enabled
+Power calculation: Optimized (smart estimation)
+Device not yet registered to whitelist, but fingerprint function still operational
+Starting monitoring...
+整合版 Agent 啟動中...
+API 地址: http://localhost:8000
+版本: v2.0 (整合版)
+API service running normally
+Device MAC address: 3A:EB:AE:BB:EE:BB
+Device fingerprint function: Enabled
+Power calculation: Optimized (smart estimation)
+Device not yet registered to whitelist, but fingerprint function still operational
+開始監控...
+
+Agent 停止運行
+整合版 Agent 啟動中...
+API 地址: http://localhost:8000
+版本: v2.0 (整合版)
+API service running normally
+Device MAC address: 3A:EB:AE:BB:EE:BB
+Device fingerprint function: Enabled
+Power calculation: Optimized (smart estimation)
+Device not yet registered to whitelist, but fingerprint function still operational
+開始監控...
+偵測到使用者活動，進行一次資料收集...
+主循環發生錯誤: 'cp950' codec can't encode character '\u2705' in position 2: illegal multibyte sequence
+偵測到使用者活動，進行一次資料收集...
+主循環發生錯誤: 'cp950' codec can't encode character '\u2705' in position 2: illegal multibyte sequence
+偵測到使用者活動，進行一次資料收集...
+主循環發生錯誤: 'cp950' codec can't encode character '\u2705' in position 2: illegal multibyte sequence
+整合版 Agent 啟動中...
+API 地址: http://172.21.208.1:8000
+版本: v2.0 (整合版)
+API service running normally
+Device MAC address: 56:5B:6F:BF:FD:F6
+Device fingerprint function: Enabled
+Power calculation: Optimized (smart estimation)
+Device not yet registered to whitelist, but fingerprint function still operational
+開始監控...

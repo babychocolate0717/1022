@@ -1,0 +1,50 @@
+^C^C'?è®Šæ•¸ä¸­ç?' ¤£¬O¤º³¡©Î¥~³¡©R¥O¡B¥i°õ¦æªºµ{¦¡©Î§å¦¸ÀÉ¡C
+'?è®Šæ•¸ä¸­ç?' ¤£¬O¤º³¡©Î¥~³¡©R¥O¡B¥i°õ¦æªºµ{¦¡©Î§å¦¸ÀÉ¡C
+Traceback (most recent call last):
+  File "C:\Users\alisa\OneDrive\Desktop\project-root_0909\agent\integrated_agent.py", line 717, in <module>
+    agent.run()
+  File "C:\Users\alisa\OneDrive\Desktop\project-root_0909\agent\integrated_agent.py", line 669, in run
+    print("\U0001f680 ¾ã¦Xª© Agent ±Ò°Ê¤¤...")
+UnicodeEncodeError: 'cp950' codec can't encode character '\U0001f680' in position 0: illegal multibyte sequence
+Traceback (most recent call last):
+  File "C:\Users\alisa\OneDrive\Desktop\project-root_0909\agent\integrated_agent.py", line 717, in <module>
+    agent.run()
+  File "C:\Users\alisa\OneDrive\Desktop\project-root_0909\agent\integrated_agent.py", line 669, in run
+    print("\U0001f680 ¾ã¦Xª© Agent ±Ò°Ê¤¤...")
+UnicodeEncodeError: 'cp950' codec can't encode character '\U0001f680' in position 0: illegal multibyte sequence
+Traceback (most recent call last):
+  File "C:\Users\alisa\OneDrive\Desktop\project-root_0909\agent\integrated_agent.py", line 709, in <module>
+    agent.run()
+  File "C:\Users\alisa\OneDrive\Desktop\project-root_0909\agent\integrated_agent.py", line 661, in run
+    print("\U0001f680 ¾ã¦Xª© Agent ±Ò°Ê¤¤...")
+UnicodeEncodeError: 'cp950' codec can't encode character '\U0001f680' in position 0: illegal multibyte sequence
+Traceback (most recent call last):
+  File "C:\Users\alisa\OneDrive\Desktop\project-root_0909\agent\integrated_agent.py", line 696, in run
+    self.process_and_send_data()
+  File "C:\Users\alisa\OneDrive\Desktop\project-root_0909\agent\integrated_agent.py", line 633, in process_and_send_data
+    print(f"\n\u2705 ¥\¯ÓºÊ±± - CPU: {final_data['cpu']}W | GPU: {final_data['gpu']}W | ¨t²Î: {final_data['system_power']}W")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u2705' in position 2: illegal multibyte sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\alisa\OneDrive\Desktop\project-root_0909\agent\integrated_agent.py", line 717, in <module>
+    agent.run()
+  File "C:\Users\alisa\OneDrive\Desktop\project-root_0909\agent\integrated_agent.py", line 709, in run
+    time.sleep(60)
+KeyboardInterrupt
+^CTraceback (most recent call last):
+  File "C:\Users\ckklab\Desktop\project-root_0909\agent\integrated_agent.py", line 16, in <module>
+    from pynput import mouse, keyboard
+ModuleNotFoundError: No module named 'pynput'
+^CTraceback (most recent call last):
+  File "C:\Users\ckklab\Desktop\project-root_1015\agent\integrated_agent.py", line 85, in <module>
+    print("\U0001f4e6 ¸ü¤J Anomaly Model...")
+UnicodeEncodeError: 'cp950' codec can't encode character '\U0001f4e6' in position 0: illegal multibyte sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckklab\Desktop\project-root_1015\agent\integrated_agent.py", line 98, in <module>
+    print(f"\u26a0\ufe0f WARNING: Failed to load AI models: {type(e).__name__}: {e}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u26a0' in position 0: illegal multibyte sequence

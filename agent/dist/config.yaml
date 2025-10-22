@@ -1,0 +1,17 @@
+# --- Agent Configuration (Integrated Version) ---
+
+# API Server Settings (from project-root)
+# This is where you set the IP address of computer A
+api_base_url: "https://0e4f2c602640.ngrok-free.app"
+auth_secret_key: "NTCUST-ENERGY-MONITOR"
+
+# Agent Behavior Settings
+collection_interval: 60  # Data collection interval in seconds
+change_threshold: 5      # Threshold for detecting significant data changes
+fallback_to_csv: true    # Save to CSV if API is unavailable
+
+# Quota Management Settings (from energy-monitoring)
+quota:
+  daily_limit_kwh: 100      # Daily energy limit in kWh
+  warning_threshold: 0.8    # 80% usage warning
+  critical_threshold: 0.95  # 95% usage critical alert
